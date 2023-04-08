@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Run Inferential Statistics</title>
+	<link rel="stylesheet" href="screen.css">
+</head>
+
+<body>
+
+<header>
+<h1> Run Inferential Statistics </h1>
+	<nav>
+		<ul>
+		  <li><a href ="Home Page.html">Home</a></li>
+		  <li><a href ="">Topic</a></li>
+		  <li><a href="Research.html">Research</a></li>
+		  <li><a href="Data.html">Data</a></li>
+		  <li><a href ="">References</a></li>
+		  <li><a href ="">Style</a></li>
+		  <li><a href ="">Layout</a></li>
+		  <li><a href ="">Modality</a></li>
+		  <li><a href ="">Professionalization</a></li>
+		</ul>
+	</nav>
+</header>	
+
+<main>
+	
+	<p> Open PASW and upload the spreadsheet. (IIT labs in Stuart Building, room 112, have PASW. You can also download a 30-day free trial.) </p>
+	
+	<ul>
+		<li> When PASW starts, it will prompt you for a data source. Select <b> Open an existing data source > More Files...</b></li>
+		<li> Set the file type to Excel, then find and open the file. </li>
+		<li> From the list, select the Formatted_Data worksheet. Click OK. You should now see the dataset. </li>
+	</ul>
+	
+	<p> The most commonly used statistical methods and tests are found under the <b>Analyze</b> menu in the standard toolbar. </p>
+	
+	<p> Figure 5 shows where to find some common statistical methods and tests. Under PASW's Analyze menu, see if you can also find the following: </p>
+	
+	<ul>
+		<li>Wilcoxon-Mann-Whitney test</li>
+		<li>Simple linear regression</li>
+		<li>Non-parametric correlation</li>
+	</ul>
+	
+	<img src="datalesson_fig5.png"/>
+	<p>CAPTION: Don't assume PASW doesn't run a given test. Many are located under broader statistical classifications.</p>
+	
+	<p> Use your prior knowledge or the Choosing the Correct Statistic resource to determine which statistic to run to find whether there is a significant difference in perc_usefulness between free_play and other tutorial types. </p>
+	
+	<aside>
+	<p>Consult UCLA's Choosing the Correct Statistic to ensure the statistical anlaysis is appropriate for your research question(s), variables of interest, and associated data types.</p>
+	</aside>
+	
+	<p> You should have determined that the Kruskal-Wallis one-way analysis of variance is the appropriate test. Go to Analyze > Nonparametric Tests > K Independent Samples... A new window will open prompting you to select the variables (by column name) to be tested.</p>
+	
+	<ul>
+		<li>Select the perc_usefulness variable from the scrollable list on the left, and click the top arrow to move it to the Test Variable List (i.e. dependent variable).</li>
+		<li>Select the free_play variable from the scrollable list, and click the bottom arrow to move it to the Grouping Variable section (i.e. independent variable).li>
+		<li>Click <b>Define Range...</b>, and enter "0" in the Minimum field and "1" in the Maximum field. This specifies the two categorical variables to be tested. Your screen should now look like Figure 6. Click Continue.</li>
+	</ul>
+	
+	<img src="datalesson_fig6.png"/>
+	<p>CAPTION: For Kruskal-Wallis, an independent (free_play) and a dependent variable (perc_usefulness) are selected.</p>
+	
+	<p> Click OK to display the statistical analysis results to new viewing window. Your results screen should look like Figure 7. Because statistical analysis output contains many numerical components (some of which must be cited in formal reports), it is a good idea to save it to a format independent of the PASW software. To save the results, go to <b>File > Export</b>. Change Document Type to the desired output format (Word, Excel, PDF, etc.), then click OK.</p>
+	
+	<img src="datalesson_fig7.png"/>
+	<p>CAPTION: PASW allows users to export statistics to common document types.</p>
+	
+	<a href ="FinishData.html">Ready to Move On!</a>
+</main>
+
+</body>	
+
+</html>
