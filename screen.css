@@ -1,0 +1,36 @@
+body {
+	background-color: gainsboro;
+	width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+
+}
+
+article {
+
+}
+
+nav ul {
+  list-style: none;
+	padding-left: 0px; 
+	background-color: white;
+	padding: 10px 0px 10px 0px;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav a {
+  color: #FF0000;
+  text-decoration: none;
+  padding: .5em 1em;
+}
+
+li.active a {
+	font-family: "Merriweather";
+  font-weight: 900;
+}
